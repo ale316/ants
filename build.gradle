@@ -11,7 +11,8 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = 'ants.Main'
+
+mainClassName = 'emts.Main'
 
 // In this section you declare where to find the dependencies of your project
 repositories {
@@ -40,5 +41,7 @@ dependencies {
 }
 
 run {
-    systemProperty 'ants.name', 'Jack'
+    systemProperty 'emts.name', 'Jack'
+    jvmArgs "-XstartOnFirstThread"
 }
+

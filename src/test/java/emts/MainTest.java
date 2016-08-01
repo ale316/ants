@@ -1,4 +1,4 @@
-package ants;
+package emts;
 
 import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.*;
